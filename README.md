@@ -1,22 +1,27 @@
-# Music Playlist and Listening Stats Manager
+# Classroom Playlist Lab
 
-A PSPJ Java console application built in visible weekly increments. This repository contains the project brief, weekly targets, runnable source as it is completed, and verification evidence.
+This PSPJ Java repository develops a deterministic Classroom Playlist and Listening-Stats Simulator through twelve visible weekly increments. All labels, durations, and counters are fictional fixtures designed for repeatable Java practice.
 
-## Twelve-week PSPJ execution plan
+## Fixed fixture set
 
-1. Define problem statement, users, sample data and console output.
-2. Capture and validate inputs.
-3. Implement core decisions and calculations.
-4. Add loop-driven workflow and menu.
-5. Extract reusable methods.
-6. Store and search data using arrays.
-7. Improve modularity and test edge cases.
-8. Apply recursion where it has a meaningful role.
-9. Model domain entities with classes and objects.
-10. Handle invalid input and exceptions.
-11. Persist records to files.
-12. Use collections and streams for a final report.
+| Code | Fictional title | Fictional studio | Seconds | Practice plays |
+| --- | --- | --- | ---: | ---: |
+| A01 | Neon Orbit | Studio Delta | 184 | 3 |
+| A02 | Paper Comet | Echo Class | 201 | 1 |
+| A03 | Quiet Signal | Garden Lab | 145 | 2 |
 
-## Weekly submission rule
+The stable fixture totals are 530 seconds and six practice plays.
 
-Each week must be committed separately after compilation and a captured console-output check. Submit the GitHub commit link, source files, and a short output screenshot.
+## Learning outcomes demonstrated
+
+1. Console output, validation, decisions, and scripted commands.
+2. Methods, arrays, edge cases, and recursion.
+3. Objects, exception recovery, local files, collections, and streams.
+
+## Safe scope
+
+This is an offline classroom simulator. It does not access streaming services, downloads, accounts, artists, personal listening history, or any external systems.
+
+## Verification rule
+
+Each `week-XX` folder contains source, procedure, trace, and exact expected output. Compile and run its class from the folder and compare output with `OUTPUT.txt`. Week 11 retains a generated local fixture file; Week 12 supplies final documentation.
